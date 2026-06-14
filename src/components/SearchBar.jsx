@@ -14,7 +14,7 @@ export default function SearchBar({ onSearch, loading }) {
     <div className="flex flex-col items-center gap-4 py-12">
       <div className="text-center mb-2">
         <h1 className="text-4xl font-bold text-white mb-2">CP Coach</h1>
-        <p className="text-slate-400 text-lg">Codeforces username टाका</p>
+        <p className="text-slate-400 text-lg">Enter your Codeforces username</p>
       </div>
       <form onSubmit={handleSubmit} className="flex gap-2 w-full max-w-md">
         <div className="relative flex-1">
